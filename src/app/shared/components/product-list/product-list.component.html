@@ -1,0 +1,13 @@
+<div class="container mt-5">
+    <!-- <h1 class="text-center">Food Items Shopping</h1> -->
+    <div class="row">
+      <div class="col-6 px-3 mt-3" *ngFor="let product of products">
+        <div class="card">
+          <img src={{product.img}} class="card-img-top img-fluid py-3" alt={{product.name}}>
+          <div class="card-body">
+            <h5 class="card-title">{{product.name}}</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
